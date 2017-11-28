@@ -1,2 +1,140 @@
-webpackJsonp([19],{332:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),e.d(t,"LoaderPageModuleNgFactory",function(){return v});var o=e(0),l=e(531),i=e(15),r=e(33),a=e(142),u=e(224),s=e(225),_=e(226),c=e(227),d=e(228),h=e(229),f=e(230),p=e(532),g=e(500),b=e(62),y=this&&this.__extends||function(){var n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,t){n.__proto__=t}||function(n,t){for(var e in t)t.hasOwnProperty(e)&&(n[e]=t[e])};return function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}}(),m=function(n){function t(t){return n.call(this,t,[u.a,s.a,_.a,c.a,d.a,h.a,f.a,p.a],[])||this}return y(t,n),Object.defineProperty(t.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new i.a(this.parent.get(o.c))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new r.a),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new r.b),this.__FormBuilder_9},enumerable:!0,configurable:!0}),t.prototype.createInternal=function(){return this._CommonModule_0=new i.d,this._ɵba_1=new r.c,this._FormsModule_2=new r.d,this._ReactiveFormsModule_3=new r.e,this._IonicModule_4=new a.b,this._IonicPageModule_5=new a.c,this._LoaderPageModule_6=new l.a,this._LAZY_LOADED_TOKEN_10=g.a,this._LoaderPageModule_6},t.prototype.getInternal=function(n,t){return n===i.d?this._CommonModule_0:n===r.c?this._ɵba_1:n===r.d?this._FormsModule_2:n===r.e?this._ReactiveFormsModule_3:n===a.b?this._IonicModule_4:n===a.c?this._IonicPageModule_5:n===l.a?this._LoaderPageModule_6:n===i.e?this._NgLocalization_7:n===r.a?this._ɵi_8:n===r.b?this._FormBuilder_9:n===b.d?this._LAZY_LOADED_TOKEN_10:t},t.prototype.destroyInternal=function(){},t}(o.x),v=new o.y(m,l.a)},346:function(n,t,e){"use strict";function o(n){return i._19(2,[i._24(402653184,1,{_fixedContent:0}),i._24(402653184,2,{_scrollContent:0}),(n()(),i._20(0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),i._28(null,0),(n()(),i._20(0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),i._28(null,1),i._28(null,2)],null,null)}function l(n){return i._19(0,[(n()(),i._20(0,null,null,1,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,o,p)),i._22(4374528,null,0,r.a,[a.c,u.b,s.a,i.H,i.I,_.a,c.a,i.g,[2,d.a],[2,h.a]],null,null)],null,function(n,t){n(t,0,0,i._23(t,1).statusbarPadding,i._23(t,1)._hasRefresher)})}e.d(t,"b",function(){return p}),t.a=o;var i=e(0),r=e(55),a=e(1),u=e(4),s=e(9),_=e(6),c=e(42),d=e(5),h=e(23),f=[],p=i._18({encapsulation:2,styles:f,data:{}});i._27("ion-content",r.a,l,{color:"color",mode:"mode",fullscreen:"fullscreen",scrollDownOnLoad:"scrollDownOnLoad"},{ionScrollStart:"ionScrollStart",ionScroll:"ionScroll",ionScrollEnd:"ionScrollEnd"},["[ion-fixed],ion-fab","*","ion-refresher"])},500:function(n,t,e){"use strict";e.d(t,"a",function(){return o});var o=(e(0),e(18),e(99),e(54),this&&this.__decorate,this&&this.__metadata,function(){function n(n,t,e,o,l,i,r,a,u){this.navCtrl=n,this.navParams=t,this.storage=e,this.auth=o,this.database=l,this.eventsApi=i,this.usersApi=r,this.zone=a,this.notification=u}return n.prototype.ionViewDidLoad=function(){var n=this;this.storage.get("introShown").then(function(t){t?n.auth.getUser().then(function(t){t?n.database.exists("users/"+t.uid).then(function(t){t?n.usersApi.init().then(function(){n.eventsApi.init().then(function(){n.notification.init(),n.zone.run(function(){n.navCtrl.setRoot("TabsPage")})})}):n.navCtrl.setRoot("CompleteProfilePage")}):n.navCtrl.setRoot("LoginPage")}):(n.storage.set("introShown",!0),n.navCtrl.setRoot("IntroPage"))})},n}())},531:function(n,t,e){"use strict";e.d(t,"a",function(){return o});var o=(e(0),e(18),e(500),this&&this.__decorate,function(){function n(){}return n}())},532:function(n,t,e){"use strict";function o(n){return i._19(0,[(n()(),i._20(0,null,null,1,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,r.a,r.b)),i._22(4374528,null,0,a.a,[u.c,s.b,_.a,i.H,i.I,c.a,d.a,i.g,[2,h.a],[2,f.a]],null,null),(n()(),i._21(null,["\n"]))],null,function(n,t){n(t,0,0,i._23(t,1).statusbarPadding,i._23(t,1)._hasRefresher)})}function l(n){return i._19(0,[(n()(),i._20(0,null,null,1,"page-loader",[],null,null,null,o,M)),i._22(49152,null,0,p.a,[f.a,g.a,b.c,y.a,m.a,v.a,P.a,i.g,w.a],null,null)],null,null)}e.d(t,"a",function(){return O});var i=e(0),r=e(346),a=e(55),u=e(1),s=e(4),_=e(9),c=e(6),d=e(42),h=e(5),f=e(23),p=e(500),g=e(10),b=e(100),y=e(147),m=e(89),v=e(149),P=e(146),w=e(157),L=[],M=i._18({encapsulation:2,styles:L,data:{}}),O=i._27("page-loader",p.a,l,{},{},[])}});
-//# sourceMappingURL=/Users/paulcham/Repositories/pubparty/www/build/19.main.js.map
+webpackJsonp([19],{
+
+/***/ 372:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__intro__ = __webpack_require__(525);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var IntroPageModule = (function () {
+    function IntroPageModule() {
+    }
+    return IntroPageModule;
+}());
+IntroPageModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_3__intro__["a" /* IntroPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__intro__["a" /* IntroPage */]),
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["a" /* TranslateModule */].forChild()
+        ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_3__intro__["a" /* IntroPage */]
+        ]
+    })
+], IntroPageModule);
+
+//# sourceMappingURL=intro.module.js.map
+
+/***/ }),
+
+/***/ 525:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__configs_toast_config__ = __webpack_require__(130);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var IntroPage = (function () {
+    function IntroPage(navCtrl, navParams, auth, loading, translate, toast) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.auth = auth;
+        this.loading = loading;
+        this.translate = translate;
+        this.toast = toast;
+    }
+    IntroPage.prototype.ionViewDidLoad = function () {
+        this.title = "PUBPARTY";
+    };
+    IntroPage.prototype.slideChanged = function () {
+        if (this.slides.getActiveIndex() == 1) {
+            this.title = this.translate.get('DISCOVER');
+        }
+        else if (this.slides.getActiveIndex() == 2) {
+            this.title = this.translate.get('JOIN_NOW');
+        }
+        else {
+            this.title = "PUBPARTY";
+        }
+    };
+    IntroPage.prototype.loginFacebook = function () {
+        var _this = this;
+        this.loading.show();
+        this.auth.loginWithFacebook().then(function (res) {
+            _this.loading.hide();
+            _this.navCtrl.setRoot('LoaderPage');
+        }).catch(function (err) {
+            if (err)
+                _this.toast.showWithDuration(_this.translate.get('LOGIN_FACEBOOK_ERROR'), __WEBPACK_IMPORTED_MODULE_3__configs_toast_config__["a" /* ToastConfig */].duration);
+            _this.loading.hide();
+        });
+    };
+    IntroPage.prototype.loginGoogle = function () {
+        var _this = this;
+        this.loading.show();
+        this.auth.loginWithGoogle().then(function (res) {
+            _this.loading.hide();
+            _this.navCtrl.setRoot('LoaderPage');
+        }).catch(function (err) {
+            if (err)
+                _this.toast.showWithDuration(_this.translate.get('LOGIN_GOOGLE_ERROR'), __WEBPACK_IMPORTED_MODULE_3__configs_toast_config__["a" /* ToastConfig */].duration);
+            _this.loading.hide();
+        });
+    };
+    return IntroPage;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */])
+], IntroPage.prototype, "slides", void 0);
+IntroPage = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'page-intro',template:/*ion-inline-start:"C:\Users\Adiontae.Gerron\Ionic\pubparty\src\pages\intro\intro.html"*/'<ion-header>\n\n  <ion-navbar>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content class="no-scroll">\n\n  <div class="welcome">\n\n    <p no-margin no-padding *ngIf="slides.isBeginning()">{{ \'WELCOME_TO\' | translate }}</p>\n\n    <p no-margin no-padding *ngIf="!slides.isBeginning()">&nbsp;</p>\n\n    <h1 no-margin no-padding><b>{{title}}</b></h1>\n\n    <img src="assets/images/logo.png" no-margin no-padding/>\n\n  </div>\n\n  <ion-slides no-padding pager (ionSlideDidChange)="slideChanged()">\n\n    <ion-slide>\n\n      <p><b>PubParty</b> {{ \'INTRO_1A\' | translate }}<br><br>{{ \'INTRO_1B\' | translate }}</p>\n\n    </ion-slide>\n\n    <ion-slide>\n\n      <p>{{ \'INTRO_2A\' | translate }}<br><br>{{ \'INTRO_2B\' | translate }}</p>\n\n    </ion-slide>\n\n    <ion-slide>\n\n      <p>{{ \'INTRO_3\' | translate }}</p>\n\n      <div padding-left padding-right>\n\n        <button ion-button block margin-bottom color="facebook" (click)="loginFacebook()">{{ \'CONTINUE_WITH_FACEBOOK\' | translate }}</button>\n\n        <button ion-button block color="google" (click)="loginGoogle()">{{ \'CONTINUE_WITH_GOOGLE\' | translate }}</button>\n\n      </div>\n\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Adiontae.Gerron\Ionic\pubparty\src\pages\intro\intro.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_2__providers__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_2__providers__["f" /* LoadingProvider */],
+        __WEBPACK_IMPORTED_MODULE_2__providers__["j" /* TranslateProvider */],
+        __WEBPACK_IMPORTED_MODULE_2__providers__["d" /* ToastProvider */]])
+], IntroPage);
+
+//# sourceMappingURL=intro.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=19.main.js.map
